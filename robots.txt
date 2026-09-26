@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://thelongboxgo.netlify.appsitemap.xml
+
+Sitemap: https://thelongboxgo.netlify.app/sitemap.xml

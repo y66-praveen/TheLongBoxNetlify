@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
   <url>
     <loc>https://thelongboxgo.netlify.app/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://thelongboxgo.netlify.app/about</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://thelongboxgo.netlify.app/browse</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://thelongboxgo.netlify.app/all</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- All Series -->
+  <url><loc>https://thelongboxgo.netlify.app/series/alpha-flight</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/amazing-fantasy</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/amazing-spider-man</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/avengers</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/captain-america</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/captain-marvel</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/champions</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/daredevil</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/defenders</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/doctor-strange</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/fantastic-four</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/ghost-rider</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/giant-size-x-men</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/hero-for-hire</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/incredible-hulk</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/iron-fist</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/iron-man</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/journey-into-mystery</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-graphic-novel</loc><lastmod>2026-09-26</lastmod><priority>0.5</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-premiere</loc><lastmod>2026-09-26</lastmod><priority>0.5</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-spotlight</loc><lastmod>2026-09-26</lastmod><priority>0.5</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-super-heroes</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-super-heroes-secret-wars</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/marvel-team-up</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/ms-marvel</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/new-mutants</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/nick-fury-agent-of-s-h-i-e-l-d</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/nova</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/power-man-and-iron-fist</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/sgt-fury-and-his-howling-commandos</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/silver-surfer</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/special-marvel-edition</loc><lastmod>2026-09-26</lastmod><priority>0.5</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/spider-woman</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/strange-tales</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/sub-mariner</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/tales-of-suspense</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/tales-to-astonish</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/thor</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/tomb-of-dracula</loc><lastmod>2026-09-26</lastmod><priority>0.7</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/werewolf-by-night</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/wolverine-limited-series</loc><lastmod>2026-09-26</lastmod><priority>0.6</priority></url>
+  <url><loc>https://thelongboxgo.netlify.app/series/x-men</loc><lastmod>2026-09-26</lastmod><priority>0.8</priority></url>
+
 </urlset>
