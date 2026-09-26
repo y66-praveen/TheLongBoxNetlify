@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="theme-color" content="#C4272B" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15110D" media="(prefers-color-scheme: dark)">
+
+<title>The Long Box — Complete Marvel Comics Reading Order Guide</title>
+<meta name="description" content="The Long Box is a free, publication-order comic book reading guide. Currently covering Marvel's Earth-616 — every issue of every series from Fantastic Four #1 (1961) through Secret Wars (1985) — with more universes and eras planned.">
+<meta name="keywords" content="Marvel reading order, comic book reading order, Earth-616, Marvel reading guide, comic book guide, Marvel timeline, publication order, comic chronology, Marvel events, classic Marvel comics">
+<!-- TODO once deployed: replace https://example.com with your real Cloudflare Pages
+     domain in the 3 places below (canonical, og:image, JSON-LD url). Everything else
+     on the page updates itself automatically -- these 3 are the only hardcoded ones,
+     because search engines and link-preview bots read them without running JS. -->
+<link rel="canonical" id="canonicalLink" href="https://thelongbox.pages.dev/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="The Long Box — Complete Marvel Comics Reading Order">
+<meta property="og:description" content="A complete comic book reading guide, in real publication order — currently Marvel's Earth-616, from Fantastic Four #1 to Secret Wars, with more to come.">
+<meta property="og:image" content="https://thelongbox.pages.dev/social-preview.png">
+<meta property="og:url" content="https://thelongbox.pages.dev/">
+<meta property="og:site_name" content="The Long Box">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Long Box — Complete Marvel Comics Reading Order">
+<meta name="twitter:description" content="A complete comic book reading guide, in real publication order — currently Marvel's Earth-616, from Fantastic Four #1 to Secret Wars, with more to come.">
+<meta name="twitter:image" content="https://thelongbox.pages.dev/social-preview.png">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<script type="application/ld+json" id="jsonld-website">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "The Long Box",
+  "alternateName": "616 Archive",
+  "description": "A publication-order comic book reading guide, currently covering Marvel's Earth-616.",
+  "url": "https://thelongbox.pages.dev/"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script>
+(function () {
+  try {
+    var saved = localStorage.getItem("archive616_theme");
+    var theme = saved === "dark" || saved === "light"
+      ? saved
+      : (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    if (theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+
+<div class="halftone-layer" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="brand" data-link>
+      <span class="brand-word">THE LONG BOX</span>
+    </a>
+    <p class="tagline">A complete comic book reading order guide — currently Earth-616, issue by issue, series by series.</p>
+    <div class="header-actions">
+      <a href="/about" class="about-btn" data-link title="About this project">About</a>
+      <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M12 2.5V4.5M12 19.5V21.5M4.5 12H2.5M21.5 12H19.5M5.6 5.6L4.2 4.2M19.8 19.8L18.4 18.4M18.4 5.6L19.8 4.2M4.2 19.8L5.6 18.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Open series navigation" aria-controls="seriesNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="app-shell">
+  <nav class="series-nav" id="seriesNav">
+    <div class="nav-search">
+      <input type="text" id="navSearch" placeholder="Find a series...">
+    </div>
+    <a href="/browse" class="nav-link nav-home" id="navHome" data-link>
+      <span class="nav-icon">&#9776;</span> All Series
+    </a>
+    <a href="/" class="nav-link nav-explore" id="navExplore" data-link>
+      <span class="nav-icon">&#10022;</span> Explore
+    </a>
+    <a href="/all" class="nav-link nav-chrono" id="navChrono" data-link>
+      <span class="nav-icon">&#8623;</span> Full Chronological Order
+    </a>
+    <div class="nav-divider"></div>
+    <div class="nav-series-list" id="navSeriesList"></div>
+  </nav>
+
+  <main class="page-area" id="pageArea">
+    <!-- Views render here -->
+  </main>
+</div>
+
+<button id="scrollTopBtn" class="scroll-top-btn" title="Back to top">&uarr;</button>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-burst" id="modalBurst"></div>
+    <div class="modal-content">
+      <span class="modal-series" id="modalSeries"></span>
+      <h2 id="modalTitle"></h2>
+      <div class="modal-summary" id="modalSummary"></div>
+      <div class="modal-meta-grid" id="modalMetaGrid"></div>
+      <div class="modal-tags" id="modalTags"></div>
+    </div>
+    <div class="modal-nav">
+      <button class="modal-nav-btn" id="modalPrev" aria-label="Previous issue">&larr; Prev</button>
+      <button class="modal-nav-btn" id="modalNext" aria-label="Next issue">Next &rarr;</button>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>The Long Box — A comic book reading order.</span>
+    <a href="/about">About this project</a>
+    <a href="https://www.instagram.com/y66.praveen/" target="_blank" rel="noopener">
+      Created by @y66.praveen
+    </a>
+    <a href="https://www.instagram.com/y66.prateek/" target="_blank" rel="noopener">
+      Visual Identity by @y66.prateek
+    </a>
+    <span class="footer-dim">v1.3</span>
+  </div>
+</footer>
+
+<script src="/data.js"></script>
+<script src="/enrichment.js"></script>
+<script src="/seo.js"></script>
+<script src="/script.js"></script>
+<!-- Cloudflare Web Analytics -->
+ <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ceadc374beae4805a41a03b16fdb3e77"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>
