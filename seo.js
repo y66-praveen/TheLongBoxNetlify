@@ -17,7 +17,7 @@
 
 const SEO_CONFIG = {
   siteName: "The Long Box",
-  baseUrl: "https://thelongbox.pages.dev/",
+  baseUrl: "https://thelongboxgo.netlify.app",
   defaultTitle: "The Long Box — Complete Marvel Comics Reading Order Guide",
   defaultDescription: "The Long Box is a free, publication-order comic book reading guide. Currently covering Marvel's Earth-616 — every issue of every series from Fantastic Four #1 (1961) through Secret Wars (1985) — with more universes and eras planned.",
   defaultImage: "/social-preview.png",
